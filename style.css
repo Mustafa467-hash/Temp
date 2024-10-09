@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+
+.navbar {
+  background-color: white !important;
+  color: rgb(10, 8, 8);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.dropdown-item {
+  color: white;
+}
+
+
+
+.divor {
+  display: flex;
+  justify-content: center;
+  border: solid 3px rgb(238, 227, 227);
+  margin-top: 20px;
+  padding: 10px;
+  align-items: center;
+  height: auto;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.card {
+  border: none;
+  margin-bottom: 20px;
+}
+
+.card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.button-container {
+  margin-bottom: 20px;
+}
+
+.btn-lg-custom {
+  font-size: 1.25rem;
+  padding: 10px 20px;
+}
+
+footer {
+  background-color: #1f1f1f;
+  color: #fff;
+  padding: 30px 0;
+}
+
+h2 {
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+#dynamic-text {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fcf3f3;
+  background-color: brown;
+  display: block;
+  width: 100vw;
+  padding: 20px 0;
+  margin: 0;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.text-container {
+  background-color: rgb(128, 0, 0);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.small-img {
+  width: 50px;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+  border: 2px solid #000;
+  border-radius: 40px;
+}
+
+.label-link {
+  text-decoration: none;
+  color: #28a745;
+}
+
+.status {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.whatsapp-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 50px;
+  color: green;
+  z-index: 1000;
+}
+
+
+.maincantiner {
+  display: flex;
+}
+
+.imgdiv {
+  width: 70%;
+  box-shadow: 0 4px 8px rgba(250, 246, 246, 0.2);
+}
+
+.txtdiv {
+  background-color: rgba(143, 148, 148, 0.856);
+  width: 30%;
+  height: 600px;
+  margin: 20px;
+  border: none;
+  border-radius: 20px;
+}
+
+.pic {
+  width: 100px;
+  border: 2px solid rgb(153, 22, 22);
+}
+
+.btn {
+
+  background-color: brown;
+  color: white;
+  border: none;
+  border-radius: 10px;
+
+
+}
+
+.de {
+  text-decoration: underline;
+  text-align: center;
+}
+
+.bd {
+  text-decoration: underline;
+
+}
+
+.centianer.to {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.glassesimg img {
+  max-width: 100%;
+  height: auto;
+}
+
+.devli {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+  background-color: #fff;
+}
+
+i {
+  color: brown;
+}
+
+.card {
+  border: none;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.small-img {
+  width: 50px;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+  border: 2px solid #000;
+  border-radius: 40px;
+}
+
+.allcards {
+  display: flex;
+}
+
+footer {
+  background-color: #1f1f1f;
+  color: #fff;
+  padding: 30px 0;
+}

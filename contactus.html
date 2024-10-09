@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Your Glasses Store</title>  <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  
+</head>
+<body>
+    <div class="text-center text-container">
+        <h1 id="dynamic-text">Buy Now</h1>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a href="index.html"> <img src="image/logo.jpg" alt="" id="clk" width="100px" class="navbar-brand"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                            Eyeglasses
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="eyeglasses.html" target="_blank">Eye Glasses</a></li>
+                            <li><a class="dropdown-item" href="#" target="_blank">Premium Eye Glasses</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                            Sunglasses
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="sunglasses.html" target="_blank">Sunglasses</a></li>
+                            <li><a class="dropdown-item" href="#" target="_blank">Premium Sunglasses</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                            Lenses
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#" target="_blank">Contact Lenses</a></li>
+                            <li><a class="dropdown-item" href="https://instagram.com/yourusername" target="_blank">Information of Lenses</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="reviews.html">Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://t3.ftcdn.net/jpg/05/89/92/50/360_F_589925063_ecQvtkwNAEnB7Nd9ad3hM7GOP0lae694.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://watermark.lovepik.com/photo/40008/0007.jpg_wh1200.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://png.pngtree.com/png-clipart/20201208/original/pngtree-red-eye-catching-order-now-tags-png-image_5550281.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        
+      </div>
+    <div class="container mt-5">
+        <header class="text-center">
+            <h1>Contact Us</h1>
+        </header>
+
+        <section class="mt-4">
+            <h2>Customer Support</h2>
+            <p><strong>Email:</strong> <a href="mailto:persolglasses@gmail.com">support@yourglassesstore.com</a></p>
+            <p><strong>Phone:</strong> <a href="tel:18005554527">1-800-555-GLAS (4527)</a></p>
+            <p><strong>Hours:</strong> Monday - Friday, 9 AM - 6 PM EST</p>
+        </section>
+
+        <section class="mt-4">
+            <h2>Live Chat</h2>
+            <p>For immediate assistance, use our live chat feature located in the bottom right corner of the screen.</p>
+        </section>
+
+        <section class="mt-4">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(0)">
+                    <i class="fas fa-question-circle"></i> What is your return policy?
+                </div>
+                <div class="faq-answer">We offer a 30-day return policy on all our products. Items must be in original condition.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(1)">
+                    <i class="fas fa-question-circle"></i> How long does shipping take?
+                </div>
+                <div class="faq-answer">Shipping typically takes 3-5 business days within the U.S. International shipping may take longer.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(2)">
+                    <i class="fas fa-question-circle"></i> Do you offer prescription lenses?
+                </div>
+                <div class="faq-answer">Yes, we offer prescription lenses for many of our frames. Please check the product details.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(3)">
+                    <i class="fas fa-question-circle"></i> Can I track my order?
+                </div>
+                <div class="faq-answer">Yes, once your order has shipped, you will receive a tracking number via email.</div>
+            </div>
+        </section>
+
+        <section class="mt-4">
+            <h2>Follow Us</h2>
+            <p>Stay connected and follow us on social media for the latest updates and promotions:</p>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#" class="facebook">Facebook</a></li>
+                <li class="list-inline-item"><a href="#" class="instagram">Instagram</a></li>
+                <li class="list-inline-item"><a href="#" class="twitter">Twitter</a></li>
+            </ul>
+        </section>
+
+        <section class="mt-4">
+            <h2>Send Us a Message</h2>
+            <form action="submit_contact.php" method="post">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" class="form-control" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </section>
+    </div>
+
+    <footer class="bg-dark text-white pt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2>Follow Us</h2>
+                    <ul class="list-unstyled social-icons">
+                        <li><a href="https://www.instagram.com/abdul_rehman_000__/" target="_blank" style="color: #E1306C;"><i class="fab fa-instagram"></i> Instagram</a></li>
+                        <li><a href="#" target="_blank" style="color: #3b5998;"><i class="fab fa-facebook"></i> Facebook</a></li>
+                        <li><a href="#" target="_blank" style="color: #1DA1F2;"><i class="fab fa-twitter"></i> Twitter</a></li>
+                        <li><a href="https://www.youtube.com/@TalhaAnjum" target="_blank" style="color: #FF0000;"><i class="fab fa-youtube"></i> YouTube</a></li>
+                        <li><a href="#" target="_blank" style="color: #69C9D0;"><i class="fab fa-tiktok"></i> TikTok</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h2>Shop</h2>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Premium Sunglasses</a></li>
+                        <li><a href="#" class="text-white">Sunglasses</a></li>
+                        <li><a href="#" class="text-white">Women Sunglasses</a></li>
+                        <li><a href="#" class="text-white">Men Sunglasses</a></li>
+                        <li><a href="#" class="text-white">Eyeglasses</a></li>
+                        <li><a href="#" class="text-white">Men Glasses</a></li>
+                        <li><a href="#" class="text-white">Women Glasses</a></li>
+                        <li><a href="#" class="text-white">Transparent Glasses</a></li>
+                        <li><a href="#" class="text-white">Round Glasses</a></li>
+                        <li><a href="#" class="text-white">Cat Eye Glasses</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h2>Contact Us</h2>
+                    <ul class="list-unstyled">
+                        <li>Amir Opticals</li>
+                        <li>Shop # 1, Al-Masoom Center</li>
+                        <li>Ainak Market Shah Alam</li>
+                        <li>karachi, Pakistan</li>
+                        <li>Phone: +92 322 1234567</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; 2023 Amir Opticals. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleFAQ(index) {
+            const answer = document.querySelectorAll('.faq-answer')[index];
+            answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+        }
+        const texts = ["phaly try kare phir buy kare", "Free Lens Cleaner", "free Box, Delivery", "No Extra for Eye Side number"];
+        let index = 0;
+
+        function changeText() {
+            const dynamicTextElement = document.getElementById("dynamic-text");
+            dynamicTextElement.innerText = texts[index];
+            index = (index + 1) % texts.length; 
+        }
+
+        setInterval(changeText, 2000); 
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

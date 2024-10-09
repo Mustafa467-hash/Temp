@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Review</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+</head>
+
+<body>
+  <div class="text-center text-container">
+    <h1 id="dynamic-text">Buy Now</h1>
+  </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a href="index.html"> <img src="image/logo.jpg" alt="" id="clk" width="100px" class="navbar-brand"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="eyeglassesDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Eyeglasses
+            </a>
+            <div class="dropdown-menu" aria-labelledby="eyeglassesDropdown">
+              <a class="dropdown-item" href="eyeglasses.html" target="_blank">Eye Glasses</a>
+              <a class="dropdown-item" href="#" target="_blank">Premium Eye Glasses</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="sunglassesDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Sunglasses
+            </a>
+            <div class="dropdown-menu" aria-labelledby="sunglassesDropdown">
+              <a class="dropdown-item" href="sunglasses.html" target="_blank">Sunglasses</a>
+              <a class="dropdown-item" href="#" target="_blank">Premium Sunglasses</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="lensesDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Lenses
+            </a>
+            <div class="dropdown-menu" aria-labelledby="lensesDropdown">
+              <a class="dropdown-item" href="#" target="_blank">Contact Lenses</a>
+              <a class="dropdown-item" href="https://instagram.com/yourusername" target="_blank">Information of
+                Lenses</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="reviews.html">Reviews</a>
+          </li>
+          <li class="nav-item">
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-6 offset-md-3 text-center">
+        <h1 class="text-danger">4.8 <span class="text-warning"><i class="fas fa-star"></i></span></h1>
+        <p class="small text-muted">Overall Score</p>
+
+        <div class="mt-4">
+          <p>Quality <span class="float-right">4.8</span></p>
+          <div class="progress">
+            <div class="progress-bar bg-danger" role="progressbar" style="width: 96%;" aria-valuenow="96"
+              aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+        <div class="mt-3">
+          <p>Style <span class="float-right">4.8</span></p>
+          <div class="progress">
+            <div class="progress-bar bg-danger" role="progressbar" style="width: 96%;" aria-valuenow="96"
+              aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+        <div class="mt-3">
+          <p>Fit <span class="float-right">4.8</span></p>
+          <div class="progress">
+            <div class="progress-bar bg-danger" role="progressbar" style="width: 96%;" aria-valuenow="96"
+              aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+
+        <div class="mt-5">
+          <p class="text-warning">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </p>
+          <p class="h5">"Quality & Comfort."</p>
+          <p class="small text-muted">Quality 5.0 · Style 5.0 · Fit 5.0</p>
+        </div>
+
+        <div class="text-center">
+          <img class="imgstar" src="https://miro.medium.com/v2/resize:fit:757/1*eouxE-U69vIIW-zEwdJZQA.png" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div class="row mt-5">
+      <div class="col-md-12">
+        <h2 class="text-center mb-4">Customer Reviews</h2>
+
+        <div class="card">
+          <div class="card-header">John Doe</div>
+          <div class="card-body">
+            <blockquote class="blockquote mb-0">
+              <p>These glasses are fantastic! The fit is perfect and they are very stylish.</p>
+              <footer class="blockquote-footer">John Doe, <cite title="Source Title">Verified Buyer</cite></footer>
+            </blockquote>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">Jane Smith</div>
+          <div class="card-body">
+            <blockquote class="blockquote mb-0">
+              <p>Absolutely love these glasses! Great quality and very comfortable.</p>
+              <footer class="blockquote-footer">Jane Smith, <cite title="Source Title">Verified Buyer</cite></footer>
+            </blockquote>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">Mike Johnson</div>
+          <div class="card-body">
+            <blockquote class="blockquote mb-0">
+              <p>These are the best glasses I have ever purchased! Highly recommend.</p>
+              <footer class="blockquote-footer">Mike Johnson, <cite title="Source Title">Verified Buyer</cite></footer>
+            </blockquote>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">Emily Davis</div>
+          <div class="card-body">
+            <blockquote class="blockquote mb-0">
+              <p>Stylish and very comfortable. Perfect for everyday use!</p>
+              <footer class="blockquote-footer">Emily Davis, <cite title="Source Title">Verified Buyer</cite></footer>
+            </blockquote>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">Chris Brown</div>
+          <div class="card-body">
+            <blockquote class="blockquote mb-0">
+              <p>I get so many compliments on these glasses. Worth every penny!</p>
+              <footer class="blockquote-footer">Chris Brown, <cite title="Source Title">Verified Buyer</cite></footer>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const texts = ["phaly try kare phir buy kare", "Free Lens Cleaner", "free Box, Delivery", "No Extra for Eye Side number"];
+    let index = 0;
+
+    function changeText() {
+      const dynamicTextElement = document.getElementById("dynamic-text");
+      dynamicTextElement.innerText = texts[index];
+      index = (index + 1) % texts.length;
+    }
+
+    setInterval(changeText, 2000); 
+  </script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
